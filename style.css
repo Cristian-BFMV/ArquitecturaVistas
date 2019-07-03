@@ -26,5 +26,9 @@ main{
     padding-left: 5%;
 }
 
+form{
+    transform: translateY(50%);
+}
+
 
 
