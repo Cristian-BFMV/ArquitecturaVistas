@@ -13,8 +13,7 @@ main{
 
 #navBar a{
     color: white;    
-    font-size: 18px;
-    letter-spacing: 3px;
+    font-size: 18px;        
 }
 
 #brand{
@@ -34,5 +33,18 @@ form{
     transform: translateY(10%);
 }
 
+.nav-item{
+    margin: 0 1%;
+}
+
+.nav-link{
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-link:hover{
+    opacity: .8;    
+    letter-spacing: .5px;
+}
 
 
